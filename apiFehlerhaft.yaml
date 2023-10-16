@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-api
+  description: "Eine Beschreibung meiner API"
+  tags:
+    - java
+    - data
+  annotations:
+    backstage.io/managed-by-location: url:http://gitlab.com/test/testApi-info.yaml
+  links:
+    - url: https://dashboard.example.com
