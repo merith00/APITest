@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: my-api
+  name: my-api2
   description: "Eine Beschreibung meiner API"
   tags:
     - java
