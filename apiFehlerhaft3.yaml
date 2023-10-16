@@ -17,3 +17,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: team-x
+  definition: |
+    syntax = "proto3";
