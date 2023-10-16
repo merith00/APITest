@@ -2,7 +2,3 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: my-apiTest5
-  description: "Eine Beschreibung meiner API"
-  tags:
-    - java
-    - data
