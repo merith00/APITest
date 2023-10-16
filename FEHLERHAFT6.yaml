@@ -4,4 +4,8 @@ metadata:
   name: my-api27656789
 spec:
   type: openapi
-  
+  lifecycle: production
+  owner: team-x
+  definition: |
+    syntax = "proto3";
+
