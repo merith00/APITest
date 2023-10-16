@@ -17,3 +17,13 @@ spec:
   type: openapi
   lifecycle: production
   owner: team-x
+  definition: |
+    syntax = "proto3";
+
+    service Exampler {
+      rpc Example (ExampleMessage) returns (ExampleMessage) {};
+    }
+
+    message ExampleMessage {
+      string example = 1;
+    };
