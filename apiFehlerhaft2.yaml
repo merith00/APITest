@@ -11,9 +11,3 @@ metadata:
   links:
     - url: https://dashboard.example.com
 spec:
-
-
-
-Enter the full path to your entity file to start tracking your component
-
-/*{"error":{"name":"InputError","message":"InputError: Processor BuiltinKindsEntityProcessor threw an error while validating the entity api:default/my-api; caused by TypeError: <root> must have required property 'spec' - missingProperty: spec","stack":"InputError: InputError: Processor BuiltinKindsEntityProcessor threw an error while validating the entity api:default/my-api; caused by TypeError: <root> must have required property 'spec' - missingProperty: spec\n at DefaultLocationService.processEntities (C:\\Users\\merit\\OneDrive\\Documents\\GitHub\\my-backstage-app\\node_modules\\@backstage\\plugin-catalog-backend\\dist\\cjs\\CatalogBuilder-f6d92180.cjs.js:2021:15)\n at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n at async DefaultLocationService.dryRunCreateLocation (C:\\Users\\merit\\OneDrive\\Documents\\GitHub\\my-backstage-app\\node_modules\\@backstage\\plugin-catalog-backend\\dist\\cjs\\CatalogBuilder-f6d92180.cjs.js:2052:22)\n at async C:\\Users\\merit\\OneDrive\\Documents\\GitHub\\my-backstage-app\\node_modules\\@backstage\\plugin-catalog-backend\\dist\\cjs\\CatalogBuilder-f6d92180.cjs.js:5039:22"},"request":{"method":"POST","url":"/locations?dryRun=true"},"response":{"statusCode":400}}
