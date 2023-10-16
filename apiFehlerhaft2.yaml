@@ -10,6 +10,7 @@ metadata:
     backstage.io/managed-by-location: url:http://gitlab.com/test/testApi-info.yaml
   links:
     - url: https://dashboard.example.com
+spec:
 
 
 
