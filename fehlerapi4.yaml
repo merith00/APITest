@@ -6,7 +6,3 @@ metadata:
   tags:
     - java
     - data
-  annotations:
-    backstage.io/managed-by-location: url:http://github.com/test/testApi-info.yaml
-      
-
