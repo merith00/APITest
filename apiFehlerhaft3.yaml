@@ -13,7 +13,3 @@ metadata:
   jira/project-key: ...
       
 
-spec:
-  type: openapi
-  lifecycle: production
-  owner: team-x
