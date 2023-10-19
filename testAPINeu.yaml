@@ -2,14 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: testAPI
-  description: "Eine Beschreibung meiner API"
+  description: "Eine neue Beschreibung meiner API"
   tags:
     - java
     - data
   annotations:
     backstage.io/managed-by-location: url:http://github.com/test/testApi-info.yaml
   links:
-    - url: https://dashboard.example.com
+    - url: https://dashboardneu.example.com
   jira/project-key: ...
       
 
