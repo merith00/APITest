@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-grpc-api
+  description: Hier ist eine Beschreibung
+  tags:
+    - java
+    - data
+  annotations:
+    backstage.io/techdocs-ref: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
+    jira/project-key: KAN
+    circleci.com/project-slug: github/spotify/pump-station
+
+
+  links:
+    - url: https://dashboard.example.com
+
+spec:
+  type: grpc
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  definition: |
+    syntax = "proto3";
+
+    service Exampler {
+      rpc Example (ExampleMessage) returns (ExampleMessage) {};
+    }
+
+    message ExampleMessage {
+      string example = 1;
+    };
