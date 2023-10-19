@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-website-2
+  tags:
+    - java
+    - data
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  consumesApis: [example-grpc-api,spotify, my-api]
+  providesApis: [starwars-graphql]
