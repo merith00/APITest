@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: example-grpc-api
-  description: Hier ist eine Beschreibung
+  description: Hier ist eine neue Beschreibung
   tags:
     - java
     - data
