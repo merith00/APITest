@@ -2,21 +2,21 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: my-api
-  description: "Eine Beschreibung meiner API"
+  description: Hier ist eine Beschreibung
   tags:
     - java
     - data
   annotations:
-    backstage.io/managed-by-location: url:http://github.com/test/testApi-info.yaml
+    backstage.io/techdocs-ref: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
+    jira/project-key: OLB
+    circleci.com/project-slug: github/spotify/pump-station
   links:
     - url: https://dashboard.example.com
-  jira/project-key: ...
 spec:
   type: openapi
   lifecycle: production
-  owner: guests
   definition: |
-    syntax = "proto3";
+    syntax = "RESTAPI";
 
     service Exampler {
       rpc Example (ExampleMessage) returns (ExampleMessage) {};
