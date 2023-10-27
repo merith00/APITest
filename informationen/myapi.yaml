@@ -15,6 +15,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
+  owner: guests
   definition: |
     syntax = "RESTAPI";
 
