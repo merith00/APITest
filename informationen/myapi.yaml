@@ -13,9 +13,10 @@ metadata:
   links:
     - url: https://dashboard.example.com
 spec:
-  type: openapi
-  lifecycle: production
+  type: grpc
+  lifecycle: experimental
   owner: guests
+  system: examples
   definition: |
     syntax = "RESTAPI";
 
