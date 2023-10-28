@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-api3
+  description: My API with documentation in GitHub
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-x
+  techdocs:
+    # GitHub URL to the OpenAPI documentation file
+    ref: url:https://github.com/merith00/APITest/blob/master/informationen/myapi.yaml
