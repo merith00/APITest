@@ -7,6 +7,20 @@ spec:
   type: openapi
   lifecycle: production
   owner: team-x
+  system: examples
+  definition: |
+    syntax = "proto3";
+
+    service Exampler {
+      rpc Example (ExampleMessage) returns (ExampleMessage) {};
+    }
+
+    message ExampleMessage {
+      string example = 1;
+    };
   techdocs:
     # GitHub URL to the OpenAPI documentation file
     ref: url:https://github.com/merith00/APITest/blob/master/informationen/myapi.yaml
+
+
+  
